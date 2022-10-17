@@ -40,6 +40,7 @@ print("Vehicle: \(someVehicle.description)")
 //: Subclassing is the act of basing a new class on an existing class. The subclass inherits characteristics from the existing class, which you can then refine. You can also add new characteristics to the subclass.
 //:
 //: To indicate that a subclass has a superclass, write the subclass name before the superclass name, separated by a colon:
+class SomeSuperclass {}
 class SomeSubclass: SomeSuperclass {
     // subclass definition goes here
 }
